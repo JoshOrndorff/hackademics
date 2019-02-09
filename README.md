@@ -8,3 +8,4 @@ Contents
 * Don't extend empty blocks
 * Encrypsulation
 * POW overlay on POS network
+* Representing numbers as factorizations (PrimeBase)
