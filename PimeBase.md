@@ -58,11 +58,16 @@ This does leave a little wrinkle because we now have to write 0 somehow.
 
 
 
-Easy to calculate
+Calculations
 ------------
-* comparisons <, >, =, <=, >=, !=
+**Easy to calculate**
+* equlity ==, !=
 * lcm
 * gcd
+
+**Hard to calculate**
+* ordering <, >, <=, >=
+* value
 
 Research questions
 -------------
