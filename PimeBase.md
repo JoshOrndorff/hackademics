@@ -29,11 +29,13 @@ The first several natural numbers are summarized in the following table.
 </pre>
 
 Once we know the factorization of a number we can represent in as a tuple.
-1 = ()
-2 = (1)
-3 = (0, 1)
-4 = (2)
-5 = ()
+#   | tuple
+---|---
+1 | ()
+2 | (1)
+3 | (0, 1)
+4 | (2)
+5 | (0,0,1)
 
 So instead of writing a number as it's decimal (or any other) base form. We'll represent it directly as this tuple. We already know there is a 1:1 correspondence. We can write down made-up numbers like (1, 4, 0, 0, 5) and not know their "value". It feels weird at first, but it is no weirder than writing down a number like 7834278159 and not knowing its factorization.
 
