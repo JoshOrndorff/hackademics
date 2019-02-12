@@ -29,7 +29,7 @@ The first several natural numbers are summarized in the following table.
 </pre>
 
 Once we know the factorization of a number we can represent in as a tuple.
-#   | tuple
+\#   | tuple
 ---|---
 1 | ()
 2 | (1)
