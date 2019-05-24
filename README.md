@@ -9,3 +9,4 @@ Contents
 * Encrypsulation
 * POW overlay on POS network
 * Representing numbers as factorizations (PrimeBase)
+* RhoVM registry design
