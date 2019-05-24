@@ -13,7 +13,7 @@ Begin with an example. To encode the number 12, we first calculate it's prime fa
 The first several natural numbers are summarized in the following table.
 <pre>
   | 2 | 3 | 5 | 7 | 11|
------------------------
+--+--------------------
 1 |   |   |   |   |   |
 2 | 1 |   |   |   |   |
 3 |   | 1 |   |   |   |
@@ -29,18 +29,22 @@ The first several natural numbers are summarized in the following table.
 </pre>
 
 Once we know the factorization of a number we can represent in as a tuple.
-1 = ()
-2 = (1)
-3 = (0, 1)
-4 = (2)
-5 = ()
+<pre>
+# | tuple
+--+----
+1 | ()
+2 | (1)
+3 | (0, 1)
+4 | (2)
+5 | (0,0,1)
+</pre>
 
 So instead of writing a number as it's decimal (or any other) base form. We'll represent it directly as this tuple. We already know there is a 1:1 correspondence. We can write down made-up numbers like (1, 4, 0, 0, 5) and not know their "value". It feels weird at first, but it is no weirder than writing down a number like 7834278159 and not knowing its factorization.
 
 Encoding: Recursion
 --------------------
 Now that we know how to write values as prime bases instead of decimals, we may as well do it for the numbers inside the tuples.
-
+<pre>
 1 = ()
 2 = (())
 3 = (0,())
@@ -49,16 +53,21 @@ Now that we know how to write values as prime bases instead of decimals, we may 
 6 = ((),())
 7 = (0,0,0,())
 8 = ((0,()))
-
+</pre>
 This does leave a little wrinkle because we now have to write 0 somehow.
 
 
 
-Easy to calculate
+Calculations
 ------------
-* comparisons <, >, =, <=, >=, !=
+**Easy to calculate**
+* equlity ==, !=
 * lcm
 * gcd
+
+**Hard to calculate**
+* ordering <, >, <=, >=
+* value
 
 Research questions
 -------------
